@@ -1,0 +1,58 @@
+h1, h4 {
+    display: inline-block;
+}
+.header {
+    background: #4A504E;
+    color: #FFFFFF;
+}
+body {
+    margin: 0;
+    font-family: cursive;
+    background-image: url('http://beta.hacksaw.academy/static/images/lessons/landing/cat-bg.jpg');
+    background-size: cover;
+    background-position: 0 100%;
+    background-attachment: fixed;
+}
+.header-inner, .content {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+h1 {
+    margin-right: 20px;
+}
+h4 {
+    font-weight: normal;
+}
+.content {
+    margin-top: 40px;
+    color: #636E6A;
+}
+.images {
+    padding: 20px 0;
+    overflow: auto;
+}
+.column {
+    width: 50%;
+    float: left;
+}
+.column img {
+    margin-top: 10px;
+    width: 100%;
+}
+.emphasise-text {
+    color: #282C2A;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mail-us {
+    text-decoration: none;
+    background: #58AF4B;
+padding: 10px 30px;
+color: #fff;
+border-radius: 5px;
+}
+.mail-container {
+    margin: 40px 0 80px;
+    text-align: center;
+}
