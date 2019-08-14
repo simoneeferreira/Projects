@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--https://beta.hacksaw.academy/lessons/catcher/-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
+        <script type="text/javascript" src="/static/scripts/lib/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+        <h1>Robot Squirrels</h1>
+        <h2>Coming soon, your favourite furry friendly creatures - now in robot form.</h2>
+        <div class="join-list-text">Join the waiting list to help test the beta squirrels.</div>
+        <div class="join-list-inputs">
+            <form action="/lessons/catcher/catch/" method="POST">
+                <input type="text" name="email" placeholder="Enter your email" class="input-email" />
+                <button class="button-submit" type="submit">Notify Me</button>
+                <div class="input-error-helper">Please enter a valid email address</div>
+            </form>
+        </div>
+        <div class="join-list-confirm">
+            <div class="join-list-thankyou">Thank you!</div>
+            <div>We'll update <span id="email-address"></span> when the squirrels are ready.</div>
+        </div>
+    </body>
+    
+</html>

@@ -1,0 +1,95 @@
+html {
+    background: url(/static/images/lessons/catcher/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+body {
+    font-family: "arial", sans-serif;
+    margin: 0 0 40px 0px;
+    color: #FFF;
+}
+h1 {
+    font-family: Pacifico;
+    text-align: center;
+    font-size: 72px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-weight: normal;
+}
+.join-list-text {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.join-list-inputs {
+    margin: 0 auto;
+    width: 435px;
+}
+.input-email {
+    border: 1px solid rgba(35, 32, 29, 0.51);
+    background-color: rgba(255, 255, 255, 0.16);
+    border-radius: 3px;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 18px;
+    width: 260px;
+    outline: none;
+    transition: all 125ms ease-out;
+}
+.input-email:focus {
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    background-color: rgba(255, 255, 255, 0.23);
+}
+.button-submit {
+    border: 1px solid rgba(54, 36, 18, 0.51);
+    background-color: rgba(55, 222, 54, 0.45);
+    border-radius: 3px;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    width: 125px;
+}
+.button-submit:hover {
+    background-color: rgba(55, 222, 54, 0.55);
+}
+.button-submit:active {
+    box-shadow: inset 2px 2px 5px rgba(24, 84, 24, 0.80)
+}
+.input-email.input-error {
+    background-color: rgba(70, 11, 11, 0.16);
+    border-color: rgba(122, 26, 26, 0.88);
+}
+.input-error-helper {
+    display: none;
+    font-size: 14px;
+    margin-left: 21px;
+    margin-top: 9px;
+    color: #EC5050;
+}
+.join-list-confirm {
+    width: 485px;
+    border: 1px solid rgba(35, 32, 29, 0.51);
+    padding: 45px;
+    background-color: rgba(255, 255, 255, 0.16);
+    border-radius: 3px;
+    text-align: center;
+    font-size: 21px;
+    margin: 0 auto;
+    display: none;
+}
+.join-list-thankyou {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+
+
+
